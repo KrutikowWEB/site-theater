@@ -1,0 +1,123 @@
+.production{
+    padding-bottom: 150px;
+    width: 100%;
+    background-color: $main-color;
+    &__slick{
+        padding-left: 150px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    &__item{
+        width: 100%;
+        position: relative;
+        &:hover{
+            .production__zoom{
+                opacity: 1;
+                &:hover{
+                    transform: scale(1.2) translateX(-40%); 
+                }
+            }
+        }
+        &-date{
+            width: 131px;
+            text-align: start;
+            transform: rotate(-90deg);
+            position: absolute;
+            bottom: 93px;
+            left: -18px;
+        }
+        &-info{
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            font-family: 'Open Sans Condensed';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+    .slick-next, .slick-prev {
+        position: absolute;
+        width: 108px;
+        height: 25px;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        bottom: -35px;
+        right: 50px;
+        font-family: 'Open Sans Condensed';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:hover{
+            color: #C4C4C4;
+            &::before{
+                content: url('../../icons/promo/Arrow_right_gray.png');
+                display: block;
+                position: absolute;
+                top: 2px;
+                right: 0;
+            }
+        }
+    }
+    .slick-prev{
+        left: 200px;
+        &:hover{
+            color: #C4C4C4;
+            &::before{
+                content: url('../../icons/promo/Arrow_left_gray.png');
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: -67px;
+            }
+        }
+    }
+    /* &__list{
+        padding-left: 150px;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    } */
+    /* &__slick{
+        display: none;
+    } */
+   /*  &__item{
+        width: 100%;
+        position: relative;
+        transition: opacity 1s;
+        &-img{
+            img{ 
+                width: 100%;
+                min-height: 100%;
+                object-fit: cover;
+            }
+        }
+        &:hover{
+            .production__zoom{
+                opacity: 1;
+                &:hover{
+                    transform: scale(1.2) translateX(-40%); 
+                }
+            }
+        }         
+    }
+    &__zoom{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        @include zoom;
+        opacity: 0;
+        transition: all 0.2s;
+        cursor: pointer; 
+    } */
+}

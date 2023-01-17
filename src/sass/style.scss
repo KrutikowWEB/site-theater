@@ -1,0 +1,37 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import 'libs/fonts';
+@import 'libs/slick';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1, h2, ul, label{
+    margin: 0;
+}
+
+@import 'block/title';
+@import 'block/promo';
+@import 'block/button';
+@import 'block/sidepanel';
+@import 'block/about';
+@import 'block/production';
+@import 'block/best';
+@import 'block/partners';
+@import 'block/contacts';
+@import 'block/hamburger';
+@import 'block/menu';
+
+@import 'base/media';

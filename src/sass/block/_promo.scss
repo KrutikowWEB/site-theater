@@ -1,0 +1,103 @@
+.promo{
+    position: relative;
+    padding-top: 51px;
+    min-height: 100vh;
+    background: url('/img/promo/main_BG.png') center center / cover no-repeat;
+    .hamburger{
+        display: none;
+    }
+    &__menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list{
+        width: 825px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__link, &__tel{
+        a{
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover{
+                border-bottom: 2px solid $second-color;
+            }
+        }
+    }
+    &__main{
+        margin-top: 190px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__info{
+        width: 540px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    &__title{
+        font-family: 'Open Sans Condensed';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 87px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__text{
+        margin-top: 50px;
+    }
+    &__btn{
+        margin-top: 49px;
+    }
+    &__slick{
+        width: 370px;
+        position: relative;
+    }
+    .slick-next, .slick-prev {
+        position: absolute;
+        width: 108px;
+        height: 25px;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        bottom: -35px;
+        right: 0;
+        font-family: 'Open Sans Condensed';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:hover{
+            color: #C4C4C4;
+            &::before{
+                content: url('../../icons/promo/Arrow_right_gray.png');
+                display: block;
+                position: absolute;
+                top: 2px;
+                right: 0;
+            }
+        }
+    }
+    .slick-prev{
+        left: 0;
+        &:hover{
+            color: #C4C4C4;
+            &::before{
+                content: url('../../icons/promo/Arrow_left_gray.png');
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: -67px;
+            }
+        }
+    }
+}

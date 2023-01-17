@@ -1,0 +1,44 @@
+.best{
+    width: 100%;
+    background-color: $main-color;
+    &__promo{
+        padding: 126px 95px 126px 182px;
+        width: 100%;
+        min-height: 550px;
+        background: url('/img/best/best_bg.png');
+        display: grid;
+        grid-template-columns: 180px 540px;
+        gap: 103px;
+    }
+    &__date{
+        display: flex;
+        flex-direction: column;
+        span{
+            font-family: 'Open Sans Condensed';
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 98px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: $second-color;
+        }
+    }
+    &__star{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &-icons{
+            width: 230px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &-info{
+            margin-top: 25px;
+            font-family: 'Open Sans';
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+    }
+}

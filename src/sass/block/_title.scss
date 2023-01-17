@@ -1,0 +1,48 @@
+.title{          
+    &__main{           /* h2 */
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+        span{
+            color: $second-color;
+        }
+    }
+    &__fz12px{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #989898;
+        &_contacts{
+            font-weight: 600;
+        }
+    }
+    &__fz14px{     /* text */
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;  
+        color: #FFFFFF;
+    }
+    &__fz16px{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        span{
+            color: $second-color;
+        }
+    }
+    &__fz18px{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }    
+}
