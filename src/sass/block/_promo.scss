@@ -2,7 +2,7 @@
     position: relative;
     padding-top: 51px;
     min-height: 100vh;
-    background: url('/img/promo/main_BG.png') center center / cover no-repeat;
+    background: url('../img/promo/main_BG.png') center center / cover no-repeat;
     .hamburger{
         display: none;
     }
@@ -79,7 +79,7 @@
         &:hover{
             color: #C4C4C4;
             &::before{
-                content: url('../../icons/promo/Arrow_right_gray.png');
+                content: url('../icons/promo/Arrow_right_gray.png');
                 display: block;
                 position: absolute;
                 top: 2px;
@@ -92,7 +92,7 @@
         &:hover{
             color: #C4C4C4;
             &::before{
-                content: url('../../icons/promo/Arrow_left_gray.png');
+                content: url('../icons/promo/Arrow_left_gray.png');
                 display: block;
                 position: absolute;
                 top: 2px;
