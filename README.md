@@ -1,6 +1,6 @@
 # pet project landing-page "theater"
 
-## my first project after finishing courses on website layout
+## my second project after finishing courses on website layout
 
 
 ## [_to launch the site follow the link_](https://krutikowweb.github.io/site-theater/)
